@@ -47,7 +47,7 @@ function ListItem(props) {
                 </button>
 
                 {/*INPUT / BUTTONS UPDATE COUNTER VALUE*/}
-                {editMode && <><input className='form-control-sm' type='number' onChange={handleUpdateValueChange}/>
+                {editMode && <><input className='form-control-sm' type='number'   onChange={handleUpdateValueChange}  />
                     <button className='btn btn-info btn-sm btn-space'
                             onClick={() => updateOnClick(props.el.id, updateVal)}>Update
                     </button>
